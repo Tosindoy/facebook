@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    width: 80%;
+    background-color:rgb(238, 240, 241);
+    font-family:sans-serif
+
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+h1{
+    border: none;
+    margin:3px;
+    padding:3px;
+    color:blue;
+}
+p{
+    border: none;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    word-break:normal;
+    align-items: center;
+    justify-content: center;
+}
+.form__wrapper {
+    width: 300px;
+    height: 200px;
+    margin-top: 5%;
+    background-color:white;
+    padding: 5% 2%;
+    border-radius: 5px;
+    line-height: 150%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+input {
+    padding: 7px;
+    margin: 2% 0%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 200px;
+    
+}
+input::placeholder {
+    color: gray;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.form {
+    margin-top: -10%;
+    margin-bottom: 7%;
+}
+.loginButton {
+    background-color:blue; 
+    color:white; 
+    padding: 7px;
+    margin: 2% 0%;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    
+} 
+.forgotPassword {
+    color:blue;
+    font-size: 7px;
+    text-align:center;
+}
+.registerButton {
+    background-color:green; 
+    color:white; 
+    font-size: 10px;
+    width: 60%;
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 5px;
+
+}
